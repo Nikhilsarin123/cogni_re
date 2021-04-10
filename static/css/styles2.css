@@ -1,0 +1,390 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(88.89deg, #FFFFFF 1.78%, #FCFCFC 1.79%, #F4FDFF 99.89%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    padding: 2% 4% !important;
+}
+
+.company-logo {
+    height: 2.9282576866764276vw
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-item {
+    padding: 0 13px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-family: 'Mulish', sans-serif;
+    color: #000 !important;
+    letter-spacing: 0.5px;
+}
+
+nav ul li .underline-effect,
+nav ul li .underline-effect:after,
+nav ul li .underline-effect:before {
+    transition: all .5s;
+}
+
+.nav-link:hover {
+    color: #075678 !important;
+}
+
+nav.stroke ul li .underline-effect {
+    position: relative;
+}
+
+nav.stroke ul li .underline-effect:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #075678;
+    height: 3px;
+}
+
+nav.stroke ul li .underline-effect:hover:after {
+    width: 100%;
+}
+
+.login-btn {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 4px;
+    background: #075678;
+    border: none;
+    color: #FFFFFF;
+    padding: 3px 14px;
+    border-radius: 3.5px;
+}
+
+.login-btn:hover {
+    border: 1px solid #075678;
+    color: #075678;
+    background: #FFFFFF;
+    transition: 0.5s;
+}
+
+/* Blogs CSS start */
+
+#news-landing {
+    margin-top: 30px;
+    position: relative;
+    padding: 2%;
+    background-color: #003951;
+}
+
+.news-earth {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    bottom: 40px;
+}
+
+.earth-img {
+    height: 13vw;
+    position: relative;
+    margin-left: 2.5%;
+}
+
+.blogs-dot {
+    height: 6vw;
+    position: relative;
+    right: 2.1%;
+    margin-top: 75px;
+}
+
+.blogs-head {
+    position: relative;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+
+.blogs-para {
+    position: relative;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+    letter-spacing: 0.7px;
+    bottom: 25px;
+}
+
+.blogs-landing {
+    height: 40vw;
+    position: absolute;
+    left: 16%;
+    bottom: -30%;
+}
+
+#articles {
+    padding: 0 3%;
+}
+
+.container-fluid1 {
+    padding: 2% 5%;
+}
+
+.card-horizontal {
+    display: flex;
+}
+
+.card {
+    margin-bottom: 30px;
+    padding: 5% 10%;
+    width: 100%;
+    background-color: #f8fdfe;
+    border: 1px solid #f8fdfe !important;
+    border-radius: 5px;
+    box-shadow: 4px 6px 6px 2px rgba(0, 0, 0, 0.18);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.articleimg-circle {
+    border-radius: 50%;
+    height: 14vw;
+}
+
+.articleimg-box {
+    height: 10.1vw;
+    position: relative !important;
+    top: 27px;
+}
+
+.articleimg-box-yt {
+    height: 13vw;
+    position: relative !important;
+    top: 10px;
+    left: 1%;
+}
+
+.card-text {
+    position: relative;
+    left: 18%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #075678;
+    text-decoration: none;
+    cursor: text;
+}
+
+.text-yt {
+    position: relative;
+    top: 35px;
+    right: 2%;
+}
+
+.card-yt {
+    height: 267px;
+}
+
+.card-aisession {
+    height: 267px;
+}
+
+.clicktoread {
+    font-size: 1.05rem;
+}
+
+/* Form start */
+
+.company-logo-form {
+    height: 2.9282576866764276vw;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+/* Form End */
+
+.data-entry {
+    padding: 3% 5%;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=number], select {
+    width: 50%;
+    padding: 3px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.profile-submit {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #454545;
+    letter-spacing: 0.8px;
+}
+
+.attach-resume {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #454545;
+    letter-spacing: 0.8px;
+}
+
+input[type=submit] {
+    background-color: #075678;
+    position: relative;
+    border: none;
+    color: #ffffff;
+    padding: 10px 35px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    top: 15px;
+    left: 40%;
+    transition: all 0.5s;
+}
+
+input[type=submit]:hover {
+    transform: scale(1.1);
+    background-color: #bbffff;
+    color: #075678;
+    border: 1px solid #075678;
+}
+
+/* Footer start */
+
+.footer-color {
+    background-color: #34B8C7;
+}
+
+.footer-text {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #ffffff;
+}
+
+.footer-building {
+    position: relative;
+    width: 100%;
+    top: 7px;
+}
+
+/* Footer end */
+
+/* Blogs Responsive Mobile start */
+
+@media only screen and (max-width: 600px) {
+    .navbar-nav {
+        margin-top: 25px;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .company-logo {
+        height: 40px;
+    }
+
+    .blogs-dot {
+        height: 35px;
+        top: -50px;
+    }
+
+    .news-earth {
+        margin-left: 2%;
+    }
+
+    .blogs-head {
+        font-size: 2rem;
+    }
+
+    .earth-img {
+        height: 50px;
+        top: -12px;
+    }
+
+    .blogs-para {
+        top: -30px;
+        margin-left: 2%;
+        font-size: 0.8rem;
+    }
+
+    .blogs-landing {
+        display: none;
+    }
+
+    .card {
+        width: 110%;
+        height: auto;
+        margin-left: -6% !important;
+    }
+
+    .card-yt {
+        padding: 8%;
+    }
+
+    .articleimg-circle {
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    .articleimg-box {
+        height: 60px;
+    }
+
+    .articleimg-box-yt {
+        height: 60px;
+        margin-left: 20px;
+        padding-bottom: 2%;
+    }
+
+    .card-text {
+        font-size: 0.7rem;
+    }
+
+    .text-yt {
+        margin-top: -40px;
+        margin-left: 25px;
+    }
+
+    .text-yt-resp {
+        top: 60px;
+    }
+
+    .clicktoread {
+        font-size: 0.6rem;
+    }
+
+    .footer-text {
+        font-size: 0.85rem;
+    }
+}
+
+/* Blogs Responsive Mobile end */

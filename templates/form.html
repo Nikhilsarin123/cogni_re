@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="static/css/styles2.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo&family=Libre+Franklin:wght@600&family=Mulish:wght@600;700&family=Open+Sans:wght@600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <title>Form</title>
+</head>
+<body>
+
+    <script src="./js/script.js"></script>
+
+    <!-- Bootstrap JS  -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <a href="./index.html"><img class="company-logo-form" src="/images/company-logo.svg" alt=""></a>
+
+    <div class="data-entry">
+        <!-- <form action="/action_page.php"> -->
+        <form method="POST" action="/hireopening" enctype="multipart/form-data">
+            <h2 class="profile-submit">Submit Your Profile</h2><br>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="fullname" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phoneno">Phone No.</label><br>
+            <input type="tel" id="tel" name="tel" required><br>
+            <label for="location">Location</label><br>
+            <input type="text" id="location" name="location" required><br>
+            <label for="experience">Experience</label><br>
+            <input type="number" id="experience" name="experience" required><br>
+            <label for="CTC">Expected CTC</label><br>
+            <input type="number" id="number" name="number"><br><br>
+            <h3 class="attach-resume">Attach Resume</h3>
+            <label type="exampleFormControlFile1"></label>
+            <!-- <input type="file" class="form-control-file" id="eampleFormControlFile1"> -->
+            <input type="file" name="inputfile" class="form-control-file" id="eampleFormControlFile1">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+</body>
+</html>
